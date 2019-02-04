@@ -1,0 +1,72 @@
+{
+  "className": "Tests",
+  "name": "",
+  "scenarios": [
+    {
+      "className": "Tests",
+      "testMethodName": "User_Can_Login",
+      "description": "User Can Login",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "i am at the login page",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "i am at the login page"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 5289775043
+            },
+            {
+              "name": "i login as john with password demo",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "i login as john with password demo"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1731446683
+            },
+            {
+              "name": "the login action will be successful",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the login action will be successful"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 54793289
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 7105259196
+        }
+      ],
+      "durationInNanos": 7105259196,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}
